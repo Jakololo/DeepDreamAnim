@@ -1,0 +1,4 @@
+python dreamer.py --input train choo.MP4/video.mp4 --output myvideo --extract 1
+python dreamer.py --input myvideo --output train choo.MP4/frames
+python dreamer.py --input myvideo --output train choo.MP4/deepdreamvideo.mp4 --create 1
+python dreamer.py --input myvideo --output myvideo/frames --preview 600
